@@ -19,6 +19,12 @@
 		8E08A394189D2B41005EC3CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E08A37C189D2B41005EC3CC /* UIKit.framework */; };
 		8E08A39C189D2B41005EC3CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E08A39A189D2B41005EC3CC /* InfoPlist.strings */; };
 		8E08A39E189D2B41005EC3CC /* CollectionViewLAYOUTSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A39D189D2B41005EC3CC /* CollectionViewLAYOUTSTests.m */; };
+		8E08A3A9189D2B68005EC3CC /* DJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A3A8189D2B68005EC3CC /* DJCollectionViewController.m */; };
+		8E08A3AC189D2B74005EC3CC /* DJGridFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A3AB189D2B74005EC3CC /* DJGridFlowLayout.m */; };
+		8E08A3AF189D9631005EC3CC /* DJBasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A3AE189D9631005EC3CC /* DJBasicCell.m */; };
+		8E08A3B4189F2403005EC3CC /* DJLeavesLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A3B3189F2403005EC3CC /* DJLeavesLayout.m */; };
+		8E08A3BC189FCB69005EC3CC /* APBigGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08A3BB189FCB69005EC3CC /* APBigGridViewFlowLayout.m */; };
+		8ECF175018A25B0A001CE38B /* DJCircleViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF174F18A25B0A001CE38B /* DJCircleViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,19 @@
 		8E08A399189D2B41005EC3CC /* CollectionViewLAYOUTSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewLAYOUTSTests-Info.plist"; sourceTree = "<group>"; };
 		8E08A39B189D2B41005EC3CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E08A39D189D2B41005EC3CC /* CollectionViewLAYOUTSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLAYOUTSTests.m; sourceTree = "<group>"; };
+		8E08A3A7189D2B68005EC3CC /* DJCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCollectionViewController.h; sourceTree = "<group>"; };
+		8E08A3A8189D2B68005EC3CC /* DJCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCollectionViewController.m; sourceTree = "<group>"; };
+		8E08A3AA189D2B74005EC3CC /* DJGridFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJGridFlowLayout.h; sourceTree = "<group>"; };
+		8E08A3AB189D2B74005EC3CC /* DJGridFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJGridFlowLayout.m; sourceTree = "<group>"; };
+		8E08A3AD189D9631005EC3CC /* DJBasicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJBasicCell.h; sourceTree = "<group>"; };
+		8E08A3AE189D9631005EC3CC /* DJBasicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJBasicCell.m; sourceTree = "<group>"; };
+		8E08A3B1189F1CE1005EC3CC /* DJSelectedIndexProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJSelectedIndexProtocol.h; path = ../DJSelectedIndexProtocol.h; sourceTree = "<group>"; };
+		8E08A3B2189F2403005EC3CC /* DJLeavesLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLeavesLayout.h; sourceTree = "<group>"; };
+		8E08A3B3189F2403005EC3CC /* DJLeavesLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLeavesLayout.m; sourceTree = "<group>"; };
+		8E08A3BA189FCB69005EC3CC /* APBigGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBigGridViewFlowLayout.h; sourceTree = "<group>"; };
+		8E08A3BB189FCB69005EC3CC /* APBigGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBigGridViewFlowLayout.m; sourceTree = "<group>"; };
+		8ECF174E18A25B0A001CE38B /* DJCircleViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCircleViewLayout.h; sourceTree = "<group>"; };
+		8ECF174F18A25B0A001CE38B /* DJCircleViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCircleViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +128,12 @@
 			children = (
 				8E08A387189D2B41005EC3CC /* DJAppDelegate.h */,
 				8E08A388189D2B41005EC3CC /* DJAppDelegate.m */,
+				8E08A3A7189D2B68005EC3CC /* DJCollectionViewController.h */,
+				8E08A3A8189D2B68005EC3CC /* DJCollectionViewController.m */,
+				8E08A3AD189D9631005EC3CC /* DJBasicCell.h */,
+				8E08A3AE189D9631005EC3CC /* DJBasicCell.m */,
+				8E08A3B1189F1CE1005EC3CC /* DJSelectedIndexProtocol.h */,
+				8ECF175118A2F23B001CE38B /* CollectionViewLayouts */,
 				8E08A38A189D2B41005EC3CC /* Images.xcassets */,
 				8E08A37F189D2B41005EC3CC /* Supporting Files */,
 			);
@@ -142,6 +167,21 @@
 				8E08A39A189D2B41005EC3CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ECF175118A2F23B001CE38B /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				8E08A3AA189D2B74005EC3CC /* DJGridFlowLayout.h */,
+				8E08A3AB189D2B74005EC3CC /* DJGridFlowLayout.m */,
+				8E08A3B2189F2403005EC3CC /* DJLeavesLayout.h */,
+				8E08A3B3189F2403005EC3CC /* DJLeavesLayout.m */,
+				8E08A3BA189FCB69005EC3CC /* APBigGridViewFlowLayout.h */,
+				8E08A3BB189FCB69005EC3CC /* APBigGridViewFlowLayout.m */,
+				8ECF174E18A25B0A001CE38B /* DJCircleViewLayout.h */,
+				8ECF174F18A25B0A001CE38B /* DJCircleViewLayout.m */,
+			);
+			name = CollectionViewLayouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E08A3A9189D2B68005EC3CC /* DJCollectionViewController.m in Sources */,
+				8E08A3B4189F2403005EC3CC /* DJLeavesLayout.m in Sources */,
 				8E08A389189D2B41005EC3CC /* DJAppDelegate.m in Sources */,
+				8ECF175018A25B0A001CE38B /* DJCircleViewLayout.m in Sources */,
 				8E08A385189D2B41005EC3CC /* main.m in Sources */,
+				8E08A3AF189D9631005EC3CC /* DJBasicCell.m in Sources */,
+				8E08A3BC189FCB69005EC3CC /* APBigGridViewFlowLayout.m in Sources */,
+				8E08A3AC189D2B74005EC3CC /* DJGridFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +486,7 @@
 				8E08A3A3189D2B41005EC3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E08A3A4189D2B41005EC3CC /* Build configuration list for PBXNativeTarget "CollectionViewLAYOUTSTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +495,7 @@
 				8E08A3A6189D2B41005EC3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
